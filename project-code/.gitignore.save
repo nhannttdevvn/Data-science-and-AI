@@ -1,0 +1,25 @@
+# Ignore zip files
+*.zip
+
+# Ignore datasets
+data/
+dataset/
+images/
+
+
+
+cd /Users/vanhuy/Desktop/NhanNguyen/DataScience
+
+# Cleanup
+find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null
+find . -name "*.pyc" -delete
+find . -name ".DS_Store" -delete
+rm -rf .pytest_cache .mypy_cache ./logs ./my_vietnamese_receipt_model 
+2>/dev/null
+
+# Pull, add, commit, push
+git pull --rebase origin main
+git add .
+git commit -m "Update layoutlmv3.py with error handling"
+git push origin main
+

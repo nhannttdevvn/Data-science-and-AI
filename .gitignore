@@ -1,61 +1,53 @@
 # =========================
-# Virtual environments
+# Python
 # =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
 .venv/
 venv/
 env/
 
 # =========================
-# Dataset & Images
+# Dataset & Models
 # =========================
 data/
 dataset/
-datasets/
 images/
-train_images/
+models/
+outputs/
+
+# =========================
+# Test files
+# =========================
 test/
 
 # =========================
-# Model files
+# Frontend (Node.js)
 # =========================
-models/
-*.pt
-*.pth
-*.onnx
-*.h5
+node_modules/
+project-code/frontend/node_modules/
 
 # =========================
-# Output results
-# =========================
-outputs/
-results/
-logs/
-
-# =========================
-# Large compressed files
+# Large files
 # =========================
 *.zip
 *.tar
 *.gz
+*.jpg
+*.jpeg
+*.png
 
 # =========================
-# Python cache
-# =========================
-__pycache__/
-*.pyc
-
-# =========================
-# Environment variables
+# Env files
 # =========================
 .env
 
 # =========================
-# Notebook checkpoints
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# OS files (MacOS)
+# OS files
 # =========================
 .DS_Store
+
 
