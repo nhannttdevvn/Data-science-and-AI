@@ -1,52 +1,61 @@
-
-project-code/
+# =========================
 # Virtual environments
-data/
-models/
-outputs/
-
+# =========================
 .venv/
-.venv312/
+venv/
+env/
 
-*.zip
-*.tar
-*.gz
-
-__pycache__/
-*.pyc
-
-.env
-.venv/
-.venv312/
-
-# Dataset
-data/
-train_images/
-
-# Models
-models/
-
-# Outputs
-outputs/
-
-# Large files
-*.zip
-*.tar
-*.gz
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Env file
-.env
-# Ignore large files
-*.zip
-*.tar
-*.gz
-
-# Ignore datasets
+# =========================
+# Dataset & Images
+# =========================
 data/
 dataset/
+datasets/
 images/
+train_images/
+test/
+
+# =========================
+# Model files
+# =========================
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# =========================
+# Output results
+# =========================
+outputs/
+results/
+logs/
+
+# =========================
+# Large compressed files
+# =========================
+*.zip
+*.tar
+*.gz
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files (MacOS)
+# =========================
+.DS_Store
 
