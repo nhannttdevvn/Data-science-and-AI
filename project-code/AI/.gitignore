@@ -1,0 +1,52 @@
+
+project-code/
+# Virtual environments
+data/
+models/
+outputs/
+
+.venv/
+.venv312/
+
+*.zip
+*.tar
+*.gz
+
+__pycache__/
+*.pyc
+
+.env
+.venv/
+.venv312/
+
+# Dataset
+data/
+train_images/
+
+# Models
+models/
+
+# Outputs
+outputs/
+
+# Large files
+*.zip
+*.tar
+*.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env file
+.env
+# Ignore large files
+*.zip
+*.tar
+*.gz
+
+# Ignore datasets
+data/
+dataset/
+images/
+
